@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-zfplugs-master.flake = false;
+  inputs.src-zfplugs-master.ref   = "refs/heads/master";
   inputs.src-zfplugs-master.owner = "zendbit";
-  inputs.src-zfplugs-master.ref   = "master";
   inputs.src-zfplugs-master.repo  = "nim.zfplugs";
   inputs.src-zfplugs-master.type  = "github";
   
