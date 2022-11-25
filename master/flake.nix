@@ -29,13 +29,13 @@
   inputs."zfcore".inputs.nixpkgs.follows = "nixpkgs";
   inputs."zfcore".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
-  inputs."moustachu".owner = "nim-nix-pkgs";
-  inputs."moustachu".ref   = "master";
-  inputs."moustachu".repo  = "moustachu";
-  inputs."moustachu".dir   = "0_14_0";
-  inputs."moustachu".type  = "github";
-  inputs."moustachu".inputs.nixpkgs.follows = "nixpkgs";
-  inputs."moustachu".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  inputs."mustache".owner = "nim-nix-pkgs";
+  inputs."mustache".ref   = "master";
+  inputs."mustache".repo  = "mustache";
+  inputs."mustache".dir   = "v0_4_3";
+  inputs."mustache".type  = "github";
+  inputs."mustache".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."mustache".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
